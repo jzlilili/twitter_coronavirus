@@ -180,3 +180,12 @@ That's because you can get slightly different numbers depending on some of the d
 For example, should the term `corona` count tweets that contain `coronavirus` as well as tweets that contain just `corona`?
 These are relatively insignificant decisions.
 I'm more concerned with your ability to write a shell script and use `nohup`, `&`, and other process control tools effectively.
+
+## Results
+Python was used to map a number of coronavirus-related hashtags to the language used and if applicable, the country geotagged by the tweet.
+The data was then reduced and presented as a list of the top ten languages or countries that used a particular hashtag between the dates 10-01-20 and 04-05-20.
+After mapping hashtags to languages and countries, the country with the most tweets with the relevant hashtags was mainly the US, and the most common language was English.
+The hashtags in Chinese, Korean, and Japanese were unsurprisingly most used by their respective countries.
+
+
+
